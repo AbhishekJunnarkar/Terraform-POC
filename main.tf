@@ -2,6 +2,7 @@ provider "aws" {
   region  = "us-east-1"
   profile = "adminabhi"
 }
+
 resource "aws_instance" "MyEc2" {
   # Ubuntu AMI
   ami                    = "ami-0885b1f6bd170450c"
